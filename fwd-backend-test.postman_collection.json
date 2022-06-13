@@ -1,0 +1,77 @@
+{
+	"id": "beb4549a-f74d-523c-5285-dd31cf2508de",
+	"name": "fwd-backend-test",
+	"description": "",
+	"order": [
+		"d84d5856-ffeb-cbd7-6fe6-23c54a7399c5",
+		"ad75ff6e-6cd5-8a54-1274-69adefdc6738"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1655095428827,
+	"owner": "2337456",
+	"public": false,
+	"requests": [
+		{
+			"id": "ad75ff6e-6cd5-8a54-1274-69adefdc6738",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/v1/product/calculateSumAssuredByPremium",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "beb4549a-f74d-523c-5285-dd31cf2508de",
+			"data": [],
+			"dataMode": "raw",
+			"name": "calculateSumAssuredByPremium",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655095717584,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\n    \"genderCd\": \"FEMALE\",\n    \"dob\": \"1983-02-21\",\n    \"planCode\": \"T11A20\",\n    \"premiumPerYear\": 30000,\n    \"paymentFrequency\": \"YEARLY\"\n }"
+		},
+		{
+			"id": "d84d5856-ffeb-cbd7-6fe6-23c54a7399c5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/v1/product/calculatePremiumBySumassured",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1655095578071,
+			"name": "calculatePremiumBySumassured",
+			"description": "",
+			"collectionId": "beb4549a-f74d-523c-5285-dd31cf2508de",
+			"responses": [],
+			"rawModeData": " {\n    \"genderCd\": \"FEMALE\",\n    \"dob\": \"1983-02-21\",\n    \"planCode\": \"T11A20\",\n    \"premiumPerYear\": 30000,\n    \"paymentFrequency\": \"YEARLY\",\n    \"saPerYear\": 33000\n }"
+		}
+	]
+}

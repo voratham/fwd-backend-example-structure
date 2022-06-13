@@ -22,14 +22,12 @@
     "esbuild-node-tsc": "^1.8.5",
     "esbuild-plugin-tsc": "^0.3.0",
     "fastify": "^3.29.0",
-    "fastify-plugin": "^3.0.1",
     "jest": "^28.1.1",
     "joi": "^17.6.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.3",
     "moq.ts": "^9.0.2",
-    "ts-jest": "^28.0.4",
-    "winston": "^3.7.2"
+    "ts-jest": "^28.0.4"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

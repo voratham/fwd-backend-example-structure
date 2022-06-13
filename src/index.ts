@@ -15,7 +15,7 @@ async function init() {
 	const productH = new handlerHttpV1.ProductHandler(productU, server)
 	productH.init()
 	
-	server.listen(process.env.PORT)
+	server.listen(5000)
 }
 
 init()
