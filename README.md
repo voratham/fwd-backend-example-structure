@@ -46,6 +46,7 @@ $ yarn test
 
 
 | Layer | Folder |
+| ------ | ------ |
 | Repository | repository |
 | Model | entities |
 | UseCase | usecase |
